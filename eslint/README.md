@@ -37,7 +37,7 @@ yarn add --dev ssh://github.com/IntelliTect/tidier.git
 
 [ESLint](http://eslint.org/) is a linting utility for Javascript. There are integrations for all major IDEs that will automatically lint your `.js` and `.jsx` files. The utility can also be run via command line.
 
-Our rules are currently based on the default Airbnb Javascript style guide [[link](https://github.com/airbnb/javascript)], but will soon include more fine-grained customization.
+Our rules are currently based on the default [Airbnb Javascript style guide](https://github.com/airbnb/javascript), but will soon include more fine-grained customization.
 
 For documentation and examples on the available rules, refer to the following:
 

@@ -17,7 +17,7 @@ If there are rules that need changed / updated, submit an [issue](https://github
 ## Installation
 
 > **Note:**
-> tidier-tslint will soon be hosted as a stand-alone NPM package with proper versioning.
+> tidier-stylelint will soon be hosted as a stand-alone NPM package with proper versioning.
 
 **via NPM**:
 
@@ -39,17 +39,20 @@ yarn add --dev ssh://github.com/IntelliTect/tidier.git
 
 Our rules are customized and influenced by several prominent leaders in the industry:
 
-- Github's [Primer](http://primercss.io/guidelines/)
-- Airbnb's [style guide](https://github.com/airbnb/css)
-- Mark Otto's [Code Guide](http://codeguide.co/)
-
-There are currently two versions of our configuration: `css` and `scss`, with the difference being the scss configuration includes rules for .scss files.
+- [Github's Primer](https://primer.github.io/)
+- [Airbnb's style guide](https://github.com/airbnb/css)
+- [Mark Otto's Code Guide](http://codeguide.co/)
 
 For documentation and examples on the available rules, refer to the following:
 
 - [Stylelint List of available rules](http://stylelint.io/user-guide/rules/)
 - [Stylelint standard configuration](https://github.com/stylelint/stylelint-config-standard)
 - [stylelint-scss available rules](https://github.com/kristerkari/stylelint-scss)
+
+There are currently two versions of our configuration:
+
+- `css.js`  : rules for vanilla css
+- `scss.js` : rules tailored for sass (scss), including variables, mixins, etc.
 
 **To configure linting:**
 
@@ -63,6 +66,7 @@ For documentation and examples on the available rules, refer to the following:
 3. Add any additional custom rules
 
 **Usage with your editor**:
+
 Use a compatible plugin. Options are found on the [stylelint website](http://stylelint.io/user-guide/complementary-tools/#editor-plugins)
 
 **Usage with Webpack**:

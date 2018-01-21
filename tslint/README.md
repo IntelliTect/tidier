@@ -39,17 +39,17 @@ yarn add --dev ssh://github.com/IntelliTect/tidier.git
 
 Our rules are heavily influenced by the [Airbnb Javascript style guide](https://github.com/airbnb/javascript).
 
-There are currently two versions of our configuration:
-
-- `back-end`  : rules for server-side development
-- `front-end` : rules for client-side development
-
 For documentation and examples on the available rules, please refer to the following:
 
 - [TSLint List of available rules](https://palantir.github.io/tslint/rules/)
 - [TSLint TS rule standard configuration](https://github.com/palantir/tslint/blob/master/src/configs/latest.ts)
 - [TSLint-react Rules](https://github.com/palantir/tslint-react)
 - [Tslint-eslint JS Rules](https://github.com/buzinas/tslint-eslint-rules)
+
+There are currently two versions of our configuration:
+
+- `back-end`  : rules for server-side development
+- `front-end` : rules for client-side development, including React.js syntax (angular coming soon)
 
 **To configure linting:**
 
